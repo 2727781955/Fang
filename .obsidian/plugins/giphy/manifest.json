@@ -1,0 +1,11 @@
+{
+  "id": "giphy",
+  "name": "Giphy",
+  "version": "1.0.8",
+  "minAppVersion": "1.0.8",
+  "description": "Search and insert gifs in a note.",
+  "author": "LuCrypto",
+  "authorUrl": "https://github.com/LuCrypto",
+  "fundingUrl": "https://buymeacoffee.com/lucrypto",
+  "isDesktopOnly": false
+}

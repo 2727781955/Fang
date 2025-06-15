@@ -1,0 +1,27 @@
+{
+  "apiKey": "sk-700a4beaadd84404b0b548e8c955d567",
+  "tagCount": 5,
+  "aiModel": "deepseek",
+  "apiEndpoint": "",
+  "modelName": "",
+  "apiVersion": "",
+  "timeout": 30000,
+  "enableCache": true,
+  "cacheTTL": 3600000,
+  "autoExecute": false,
+  "autoExecuteTrigger": "保存时",
+  "autoTaggingPaused": false,
+  "savedConfigurations": [
+    {
+      "name": "deepseek",
+      "model": "deepseek",
+      "apiKey": "sk-700a4beaadd84404b0b548e8c955d567",
+      "apiEndpoint": "",
+      "modelName": "",
+      "apiVersion": "",
+      "timeout": 30000,
+      "generateProperties": false
+    }
+  ],
+  "generateProperties": false
+}

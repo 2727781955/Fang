@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#groupGif {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#groupGif img {
+  width: 22%;
+  cursor: pointer;
+}

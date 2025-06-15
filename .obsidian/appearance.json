@@ -1,0 +1,14 @@
+{
+  "interfaceFontFamily": "霞鹜文楷",
+  "textFontFamily": "霞鹜文楷",
+  "monospaceFontFamily": "Comic Sans MS,Ink Free,Andale Mono",
+  "baseFontSizeAction": true,
+  "baseFontSize": 22,
+  "cssTheme": "Catppuccin",
+  "enabledCssSnippets": [
+    "code-scroll"
+  ],
+  "nativeMenus": false,
+  "theme": "moonstone",
+  "accentColor": "#622ba6"
+}

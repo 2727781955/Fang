@@ -1,0 +1,40 @@
+/* ===== 完整代码块统一横向滚动方案 ===== */
+/* 预览模式 */
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-codeblock,
+.markdown-preview-view pre {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: block;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-codeblock .cm-line,
+.markdown-preview-view code {
+    white-space: pre;
+    display: inline;
+    word-break: keep-all;
+}
+
+/* 编辑模式特殊处理 */
+.cm-contentContainer .cm-content > .HyperMD-codeblock {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.cm-contentContainer .cm-content > .HyperMD-codeblock .cm-line {
+    display: inline-block;
+    white-space: pre !important;
+    word-break: keep-all;
+}
+
+/* 可选：滚动条美化 */
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-codeblock::-webkit-scrollbar,
+.markdown-preview-view pre::-webkit-scrollbar {
+    height: 8px;
+    background: transparent;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-codeblock::-webkit-scrollbar-thumb,
+.markdown-preview-view pre::-webkit-scrollbar-thumb {
+    background: var(--text-muted);
+    border-radius: 4px;
+}

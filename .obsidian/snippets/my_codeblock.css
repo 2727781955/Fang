@@ -1,0 +1,22 @@
+/* 统一代码块样式（编辑视图 + 阅读视图） */
+.markdown-preview-view pre code,
+.cm-s-obsidian .HyperMD-codeblock {
+  background-color: #2e3440; /* 深色背景 */
+  color: #d8dee9;
+  border-radius: 8px;
+  padding: 1em;
+  font-family: "Fira Code", "JetBrains Mono", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+/* 内联代码 */
+code {
+  background-color: #3b4252;
+  color: #88c0d0;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: "Fira Code", monospace;
+  font-size: 13px;
+}
